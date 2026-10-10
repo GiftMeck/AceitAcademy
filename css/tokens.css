@@ -1,0 +1,54 @@
+@font-face{font-family:"DM Sans";src:url("../assets/fonts/dm-sans.woff2") format("woff2");font-weight:100 1000;font-style:normal;font-display:swap}
+/* Design tokens. Change colours, fonts and radii here and the whole site follows. */
+
+/* ============ Tokens (from the brief) ============ */
+:root {
+  --green: #10DC85;
+  --green-ink: #08754C;
+  --deep: #052323;
+  --bg: #FFFFFF;
+  --card: #FFFFFF;
+  --line: #DFE8E4;
+  --text: #052323;
+  --muted: #4B6461;
+  --soft: #F1F5F3;
+  --tint: #EAF9F1;
+  --plan-bg: #EAF5F0;
+  --yellow: #FFC845;
+  --pink: #F7A1C4;
+  --blue: #4F6BEF;
+  --orange: #FF6B3D;
+  --btn-border: #052323;
+  --header-bg: rgba(251, 252, 251, .94);
+  --stage: transparent;
+  --art-surface: #F0F5F1;
+  --shadow: 0 16px 48px -24px rgba(4,34,34,.22);
+  --danger: #B93A26;
+  --danger-soft: #FCEAE6;
+  --focus: #087A4B;
+  --font: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius-sm: 12px;
+  --radius: 16px;
+  --radius-lg: 22px;
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --bg: #071A18;
+  --card: #0D2522;
+  --line: #1E3B37;
+  --text: #E6F2EE;
+  --muted: #9FB9B3;
+  --soft: #12302C;
+  --tint: #0E3A2B;
+  --plan-bg: #0B2522;
+  --green-ink: #3FE39F;
+  --btn-border: #010C0B;
+  --header-bg: rgba(7, 26, 24, .88);
+  --stage: transparent;
+  --art-surface: #C2D8CF;
+  --shadow: 0 16px 48px -24px rgba(0,0,0,.65);
+  --danger: #FF8A73;
+  --danger-soft: #3A1D18;
+  --focus: #3FE39F;
+  color-scheme: dark;
+}
